@@ -1,15 +1,15 @@
-public class Points {
+public class Point {
     private int x;
     private int y;
-    public Points(int x, int y) {
+    public Point(int x, int y) {
         this.x = x;
         this.y = y;
     }
-    public Points(int both) {
+    public Point(int both) {
         x = both;
     }
 
-    public Points() {
+    public Point() {
         x = 0;
         y = 0;
     }
