@@ -30,6 +30,5 @@ public class Main {
         int totalArea = plot1.calculateArea() + plot2.calculateArea() + plot3.calculateArea() ;
         System.out.println("These tree plots require " + totalArea + " square feet of seed");
 
-
     }
 }
